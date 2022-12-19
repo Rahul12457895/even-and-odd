@@ -1,0 +1,13 @@
+# count a even and odd number.......
+
+x= (1,2,3,4,5,6,7,8,9)
+count=0
+c1= 0
+
+for i in range(len(x)):
+    if x[i]%2==0:
+        count+=1
+    else:
+        c1+=1
+print("numbers are even= ",count)
+print("numbers are odd= ",c1)
